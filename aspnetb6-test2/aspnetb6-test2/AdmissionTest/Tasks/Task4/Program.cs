@@ -12,7 +12,7 @@ namespace Task4
 
         public static int BinaryToDecimal(string binaryNumber)
         {
-            // Write your code here
+            return Convert.ToInt32(binaryNumber);
             throw new NotImplementedException();
         }
     }
